@@ -1385,14 +1385,14 @@
         <left>$PARAM[left]</left>
         <top>$PARAM[top]</top>
         <control type="group" description="Video Window Grouo">
-          <visible>Player.HasVideo + !Skin.HasSetting(Show_Player)</visible>
+          <visible>Player.HasVideo + !Skin.HasSetting(Show_Player) + !Skin.HasSetting(Hide.MiniVideoWindow)</visible>
           <control type="videowindow" description="Current Video">
             <width>$PARAM[width]</width>
             <height>$PARAM[height]</height>
           </control>
         </control>
         <control type="group" description="Icon Group">
-          <visible>!Player.HasVideo | ![Player.HasVideo + !Skin.HasSetting(Show_Player)]</visible>
+          <visible>!Player.HasVideo | ![Player.HasVideo + !Skin.HasSetting(Show_Player)] | Skin.HasSetting(Hide.MiniVideoWindow)</visible>
           <include content="ShadowedImage">
             <param name="width">$PARAM[width]</param>
             <param name="height">$PARAM[height]</param>

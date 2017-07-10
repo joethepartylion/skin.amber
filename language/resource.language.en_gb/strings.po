@@ -184,7 +184,11 @@ msgctxt "#31041"
 msgid "Repository"
 msgstr ""
 
-#empty strings from id 31042 to 31045
+msgctxt "#31042"
+msgid "Hide mini video in PVR windows"
+msgstr ""
+
+#empty strings from id 31043 to 31045
 
 msgctxt "#31046"
 msgid "Use Jarvis style shelves"

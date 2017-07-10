@@ -143,6 +143,11 @@
               <param name="itemlabel" value="$LOCALIZE[31040]"/>
               <param name="skinsetting" value="Hide.RecordingTitleBar"/>
             </include>
+            <include content="YesNoSettingItem">
+              <param name="itemid" value="3"/>
+              <param name="itemlabel" value="$LOCALIZE[31042]"/>
+              <param name="skinsetting" value="Hide.MiniVideoWindow"/>
+            </include>
             <item id="4" description="Lyrics">
               <label>$LOCALIZE[24020] $LOCALIZE[31132]</label>
               <label2>$INFO[Skin.String(LyricPath)]</label2>
